@@ -1,7 +1,7 @@
 <template>
-  <v-container class="bg-blue-lighten-5 py-16 h-75 w-75 rounded-shaped border-double border-xl elevation-24" fluid>
+  <v-container class="bg-blue-lighten-5 py-16 w-75 rounded-shaped border-double border-xl elevation-24" fluid>
     <v-col class="text-center">
-      <h1 class="text-h2 font-weight-bold pb-4">
+      <h1 class="text-h3 text-md-h2 text font-weight-bold pb-4">
         Konwerter walut
       </h1>
       <p class="pb-6 text-subtitle-1">
@@ -16,14 +16,14 @@
       </div>
       <div class="d-flex justify-center">
         <v-sheet width="40rem">
-          <v-select label="Z" :items="computedList" v-model="firstCurrency" variant="outlined" clearable
+          <v-select label="Z" :items="computedList" v-model="firstCurrency" variant="outlined" 
             class="bg-blue-lighten-5"></v-select>
         </v-sheet>
       </div>
       <div class="d-flex justify-center">
         <v-sheet width="40rem">
-          <v-select label="Na" :items="computedList" v-model="secondCurrency" variant="outlined" clearable
-            class="bg-blue-lighten-5 pb-8"></v-select>
+          <v-select label="Na" :items="computedList" v-model="secondCurrency" variant="outlined" 
+            class="bg-blue-lighten-5 pb-6 pb-md-8"></v-select>
         </v-sheet>
       </div>
 
