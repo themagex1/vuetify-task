@@ -1,3 +1,44 @@
-# vuetify-task
+# default
 
-This is a simple currency conversion application. Pinia library (instead of Vuex), Vuetify and Typescript language were used for implementation. The data was taken from the NBP API. The application is in Polish, because the data from the API is also in this language
+## Project setup
+
+```
+# yarn
+yarn
+
+# npm
+npm install
+
+# pnpm
+pnpm install
+```
+
+### Compiles and hot-reloads for development
+
+```
+# yarn
+yarn dev
+
+# npm
+npm run dev
+
+# pnpm
+pnpm dev
+```
+
+### Compiles and minifies for production
+
+```
+# yarn
+yarn build
+
+# npm
+npm run build
+
+# pnpm
+pnpm build
+```
+
+### Customize configuration
+
+See [Configuration Reference](https://vitejs.dev/config/).
