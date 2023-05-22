@@ -4,7 +4,6 @@ import axios from 'axios';
 export const useCurrencyStore = defineStore("currency", {
     state: () => ({
         courses: [] as any[]
-
     }),
     actions: {
         async fetchCourses() {
