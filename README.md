@@ -1,5 +1,7 @@
 # default
 
+A simple currency conversion application. Pinia library (instead of Vuex), Vuetify, Typescript and Vue.js (Composition API) were used for implementation. The data is pulled from the NBP API and further processed using a script. The application is in Polish because the data in the API is also in this language. The result of the calculation is rounded to two decimal places. 
+
 ## Project setup
 
 ```
